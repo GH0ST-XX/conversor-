@@ -3,6 +3,7 @@ const taxas = {
     EUR: 0.18,
     ARS: 48.00,
     JPY: 25.41,
+    AFN: 12.31,
     BTC: 0.0000017,
 };
 
@@ -11,6 +12,7 @@ const bandeirars = {
     EUR: "https://flagsapi.com/FR/flat/64.png",
     ARS: "https://flagsapi.com/AR/flat/64.png",
     JPY: "https://flagsapi.com/JP/flat/64.png",
+    AFN: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_cV2KegzhTG1qPIZDX0g_t_60R7Xx6dF2Q&s",
     BTC: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCcfEgqk-P1YiouWcR93ZvOdc8QzuBQb_Alg&s",
 };
 
