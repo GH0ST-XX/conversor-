@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class ="container">
+        <h1>Conversor de Moeda</h1>
+        <div class="converter">
+            <input type="number" id="valor" placeholder="Digite o valor em reais (R$)">
+            
+            <select id="moeda">
+                <option value="" selected disabled>Selecione a moeda</option>
+                <option value="USD">Dólar (EUA)</option>
+                <option value="EUR">Euro (FRA)</option>
+                <option value="ARS">Peso (ARG)</option>
+                <option value="JPY">Iene (JPY)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+            </select>
+
+            <div class="bandeira" id="bandeira">
+                <img id="img-bandeira" src="" alt="Bandeira">
+            </div>
+
+            <button onclick="converter()">Converter</button>
+
+            <div class="resultado" id="resultado">
+    </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
